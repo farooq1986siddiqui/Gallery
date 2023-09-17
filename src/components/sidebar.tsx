@@ -41,7 +41,7 @@ const Sidebar = () => {
                                     />
                                 </svg>
 
-                                Picture Album
+                                Album
                             </Button>
                         </Link>
                         <Link href={'/favourite'}>
