@@ -15,6 +15,7 @@ export default function Home() {
       let res = result as UploadImage
       setImageId(res.info.public_id) 
       }}/>
+      {/*View Image*/}
       <CldImage
         width="760"
         height="400"

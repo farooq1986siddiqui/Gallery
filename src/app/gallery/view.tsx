@@ -3,6 +3,8 @@ import { CldImage } from 'next-cloudinary';
 import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai'
 import { AddTags } from './action';
 import {useState} from 'react'
+import {AiFillEdit} from 'react-icons/ai'
+import Link from 'next/link';
 
 const View = ({src, tag}:{src:string, tag:string[]}) => {
   const [fav, setFav] = useState(tag.includes("favourite"))
@@ -16,7 +18,7 @@ const View = ({src, tag}:{src:string, tag:string[]}) => {
     sizes="100vw"
     alt="Description of my image"
   />
-
+  {/* heart Icon for favourite */}
   <div className='absolute top-1 right-1' 
     onClick={()=>{
     setFav(!fav);
@@ -27,6 +29,12 @@ const View = ({src, tag}:{src:string, tag:string[]}) => {
     }
     
   </div>
+  {/* Edit Icon for editing page */}
+  <Link href={`/edit?publicId=${src}`} className='cursor-pointer'>
+  <div className='absolute top-1 left-1'>
+  <AiFillEdit className="w-6 h-6 cursor-pointer text-white hover:text-red-500 duration-300"/>
+  </div>
+  </Link>
   </div> 
   )
 }
