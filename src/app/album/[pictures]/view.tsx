@@ -5,7 +5,6 @@ import { AddTags } from './action';
 import {useState} from 'react'
 import {AiFillEdit} from 'react-icons/ai'
 import Link from 'next/link';
-import AlbumDialog from './albumDialog';
 
 const View = ({src, tag}:{src:string, tag:string[]}) => {
   const [fav, setFav] = useState(tag.includes("favourite"))
@@ -35,10 +34,6 @@ const View = ({src, tag}:{src:string, tag:string[]}) => {
   <Link href={`/edit?publicId=${src}`} className='cursor-pointer'>
   <AiFillEdit className="w-6 h-6 cursor-pointer text-white hover:text-red-500 duration-300"/>
   </Link>
-  </div>
-  {/* add to album */}
-  <div className='absolute bottom-1 left-1'>
-  <AlbumDialog imageData={src}/>  
   </div>
   </div> 
   )

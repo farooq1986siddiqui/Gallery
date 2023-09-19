@@ -24,7 +24,7 @@ const Sidebar = () => {
                                 Galary
                             </Button>
                         </Link>
-                        <Link href={'#'}>
+                        <Link href={'/album'}>
                             <Button variant="ghost" className="w-full text-lg justify-start">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

@@ -23,8 +23,8 @@ export function TabsDemo({src}:{src:string}) {
         <div className="flex justify-center py-4 items-center gap-6">      
             <div>
             <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -32,8 +32,8 @@ export function TabsDemo({src}:{src:string}) {
        </div>
         <div>
         <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -46,8 +46,8 @@ export function TabsDemo({src}:{src:string}) {
         <div className="flex justify-center py-4 items-center gap-6">      
             <div>
             <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -55,8 +55,8 @@ export function TabsDemo({src}:{src:string}) {
        </div>
         <div>
         <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -70,8 +70,8 @@ export function TabsDemo({src}:{src:string}) {
         <div className="flex justify-center py-4 items-center gap-6">      
             <div>
             <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -79,8 +79,8 @@ export function TabsDemo({src}:{src:string}) {
        </div>
         <div>
         <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -94,8 +94,8 @@ export function TabsDemo({src}:{src:string}) {
         <div className="flex justify-center py-4 items-center gap-6">      
             <div>
             <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -103,8 +103,8 @@ export function TabsDemo({src}:{src:string}) {
        </div>
         <div>
         <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -118,8 +118,8 @@ export function TabsDemo({src}:{src:string}) {
         <div className="flex justify-center py-4 items-center gap-6">      
             <div>
             <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
@@ -127,8 +127,8 @@ export function TabsDemo({src}:{src:string}) {
        </div>
         <div>
         <CldImage
-         width="300"
-         height="300"
+         width="500"
+         height="500"
          src={src}
          sizes="100vw"
          alt="Description of my image"
